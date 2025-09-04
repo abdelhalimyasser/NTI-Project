@@ -1,5 +1,5 @@
-import streamlit as st
 import joblib
+import streamlit as st
 
 # Load vectorizer and models
 vectorizer = joblib.load("vectorizer.pkl")
